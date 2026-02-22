@@ -1,9 +1,11 @@
+// Fonte: https://thehuxley.com/problem/17
+
 #include <stdio.h>
 
-int main(){
-    int celsius;
-    scanf("%d",&celsius);
-    int fahrenheit = (celsius * 9 / 5) + 32;
-    printf("%d\n",fahrenheit);
+int main()
+{
+    int x;
+    scanf("%d", &x);
+    printf("%d %d", x - 1, x + 1);
     return 0;
 }
